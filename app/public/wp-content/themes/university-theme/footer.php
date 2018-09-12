@@ -13,6 +13,11 @@
           <div class="site-footer__col-two">
             <h3 class="headline headline--small">Explore</h3>
             <nav>
+           <!--    <?php 
+                wp_nav_menu(array(
+                  'theme_location' => 'footerLocationLeft',
+                ));
+              ?> -->
               <ul class="nav-list min-list">
                 <li><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
                 <li><a href="#">Programs</a></li>
@@ -25,10 +30,14 @@
           <div class="site-footer__col-three">
             <h3 class="headline headline--small">Learn</h3>
             <nav>
+             <!--  <?php  
+                wp_nav_menu(array(
+                  'theme_location' => 'footerLocationRight',
+                ));
+              ?> -->
               <ul class="nav-list min-list">
                 <li><a href="#">Legal</a></li>
-                <li><a href="<?php echo site_url('/privacy
-                '); ?>">Privacy</a></li>
+                <li><a href="<?php echo site_url('/privacy_policy') ?>">Privacy</a></li>
                 <li><a href="#">Careers</a></li>
               </ul>
             </nav>
@@ -55,3 +64,4 @@
 <?php wp_footer(); ?>
 </body>
 </html>
+

@@ -22,3 +22,7 @@ Stack trace:
 [12-Sep-2018 11:23:41 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/university-theme/functions.php on line 4
 [12-Sep-2018 11:23:42 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/university-theme/functions.php on line 4
 [12-Sep-2018 11:31:52 UTC] PHP Parse error:  syntax error, unexpected ''/images/bus.jpg ?>);">' (T_ENCAPSED_AND_WHITESPACE) in /app/public/wp-content/themes/university-theme/index.php on line 74
+[12-Sep-2018 19:39:02 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/university-theme/page.php on line 27
+[12-Sep-2018 20:14:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/university-theme/functions.php on line 12
+[12-Sep-2018 20:14:44 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/university-theme/functions.php on line 12
+[12-Sep-2018 20:15:22 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/university-theme/functions.php on line 12
