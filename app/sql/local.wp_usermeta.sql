@@ -17,6 +17,9 @@ INSERT INTO `wp_usermeta` VALUES
 (13,1,"wp_user_level","10"),
 (14,1,"dismissed_wp_pointers","wp496_privacy"),
 (15,1,"show_welcome_panel","1"),
-(16,1,"session_tokens","a:1:{s:64:\"c0d461873127ffbe95f755a0e87dc8035036aba8f0a84f26dcefe328bd87f445\";a:4:{s:10:\"expiration\";i:1536736117;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\";s:5:\"login\";i:1536563317;}}"),
-(17,1,"wp_dashboard_quick_press_last_post_id","4"),
-(18,1,"community-events-location","a:1:{s:2:\"ip\";s:12:\"192.168.95.0\";}");
+(16,1,"session_tokens","a:1:{s:64:\"4e622db116a226846dae3e0bec522c5da735a8422e98871b06e0482366534f46\";a:4:{s:10:\"expiration\";i:1536923059;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:115:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36\";s:5:\"login\";i:1536750259;}}"),
+(17,1,"wp_dashboard_quick_press_last_post_id","39"),
+(18,1,"community-events-location","a:1:{s:2:\"ip\";s:12:\"192.168.95.0\";}"),
+(19,1,"managenav-menuscolumnshidden","a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}"),
+(20,1,"metaboxhidden_nav-menus","a:1:{i:0;s:12:\"add-post_tag\";}"),
+(21,1,"nav_menu_recently_edited","4");
