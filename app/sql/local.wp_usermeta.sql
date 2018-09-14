@@ -2,10 +2,10 @@
 /*!40014 SET FOREIGN_KEY_CHECKS=0*/;
 /*!40103 SET TIME_ZONE='+00:00' */;
 INSERT INTO `wp_usermeta` VALUES
-(1,1,"nickname","primoz"),
+(1,1,"nickname","Primoz Babsek"),
 (2,1,"first_name",""),
 (3,1,"last_name",""),
-(4,1,"description",""),
+(4,1,"description","I am Web Developer with more than a year of experience in Web Development."),
 (5,1,"rich_editing","true"),
 (6,1,"syntax_highlighting","true"),
 (7,1,"comment_shortcuts","false"),
