@@ -55,3 +55,37 @@ Stack trace:
 #6 /app/public/index.php(17): require('/app/public/wp-...')
 #7 {main}
   thrown in /app/public/wp-content/themes/university-theme/header.php on line 27
+[15-Sep-2018 08:24:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_post_tzpe() in /app/public/wp-content/themes/university-theme/functions.php:19
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(33): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/functions.php on line 19
+[15-Sep-2018 08:24:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_post_tzpe() in /app/public/wp-content/themes/university-theme/functions.php:19
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/functions.php on line 19
+[15-Sep-2018 08:24:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_post_tzpe() in /app/public/wp-content/themes/university-theme/functions.php:19
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(31): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/edit.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/university-theme/functions.php on line 19
