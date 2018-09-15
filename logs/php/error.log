@@ -89,3 +89,17 @@ Stack trace:
 #7 /app/public/wp-admin/edit.php(10): require_once('/app/public/wp-...')
 #8 {main}
   thrown in /app/public/wp-content/themes/university-theme/functions.php on line 19
+[15-Sep-2018 09:04:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archive() in /app/public/wp-content/themes/university-theme/single-event.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/university-theme/single-event.php on line 16
+[15-Sep-2018 09:04:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archive() in /app/public/wp-content/themes/university-theme/single-event.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/university-theme/single-event.php on line 16
