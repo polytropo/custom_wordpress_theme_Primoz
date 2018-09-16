@@ -103,3 +103,18 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/university-theme/single-event.php on line 16
+[16-Sep-2018 06:25:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in /app/public/wp-content/themes/university-theme/front-page.php on line 29 and at least 1 expected in /app/public/wp-content/plugins/advanced-custom-fields/core/api.php:329
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/front-page.php(29): the_field()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/core/api.php on line 329
+[16-Sep-2018 06:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /app/public/wp-content/themes/university-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/university-theme/front-page.php on line 29
